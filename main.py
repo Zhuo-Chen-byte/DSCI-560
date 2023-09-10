@@ -13,7 +13,7 @@ if __name__ == '__main__':
     
     
     # Create a portfolio and start trading
-    print('An empty portfolio created. Trading opens ...\n')
+    print(f'An empty portfolio recording stock information across {days_lookback} days is created. Trading opens ...\n')
     c = config(days_lookback)
     p = portfolio(c)
     
