@@ -17,4 +17,4 @@
     python main.py
     ```
     
-    and you will be directed into a trading
+    and you will be directed into a trading simulation
