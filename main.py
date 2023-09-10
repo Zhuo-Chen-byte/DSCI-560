@@ -21,11 +21,11 @@ if __name__ == '__main__':
     
     while not continue_trading_or_not.lower() == 'n':
         # Add stocks to the portfolio
-        stock_name = input('Please enter the you want to add to your portfolio (N / n to exit): ')
+        stock_name = input('Please enter the stock you want to add to your portfolio (N / n to exit): ')
     
         while not stock_name.lower() == 'n':
             p.add_stock(stock_name)
-            stock_name = input('Please enter the you want to add to your portfolio (N / n to exit): ')
+            stock_name = input('Please enter the stock you want to add to your portfolio (N / n to exit): ')
     
         # Delete stocks from the portfolio
         stock_name = input('Please enter the stock you want to delete from your portfolio (N / n to exit): ')
