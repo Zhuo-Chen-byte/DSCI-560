@@ -22,4 +22,4 @@
    
 3. Data Cleaning
    
-   Currently, there are no data need cleaning (no missing values, do not know what models to use). Will be added later
+   KNN imputation is provided. However, there are no data need cleaning currently.
