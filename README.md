@@ -18,3 +18,6 @@
     ```
     
     and you will be directed into a trading simulation
+
+3. Data Cleaning
+   Currently there are no data need cleaning (no missing values, do not know what models to use). Will be added later
