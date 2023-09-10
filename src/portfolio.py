@@ -1,4 +1,6 @@
 
+from sklearn.impute import KNNImputer
+
 import yfinance as yf
 import pandas as pd
 
@@ -33,6 +35,14 @@ class Portfolio:
         return data
     
     
+    # KNN imputation with num_neighbors = 5
+    def KNN_imputation(self, X) -> pd.Series:
+        imputer = KNNImputer(n_neighbors=5, weights='uniform', metric='nan_euclidean')
+        imputer.fit(X)
+        
+        return imputer.transform(X)
+        
+        
     # Check if a given stock is valid
     def is_valid_stock(self, stock_name: str):
         try:
@@ -104,3 +114,4 @@ class Portfolio:
             stock_info = self.fetch_stock_data(stock_name)
             stock_info.to_csv(f'{stock_data_local_dir}/{stock_name}.csv', index=False)
             
+    
