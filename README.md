@@ -4,21 +4,17 @@
     You can clone this project by running this command
   
     ```shell
-    git clone 
+    git clone https://github.com/Zhuo-Chen-byte/DSCI-560.git
     ```
     
     or download the .zip manually
     
-2. Create your Firebase Realtime Database
-    
-    And in *command_lines.py*, at line 6 change *base_url = 'https://dsci-551-group-project-default-rtdb.firebaseio.com'* to the link of yours
-
-3. Generate a web
-    You can start up the command lines, navigation, and search & analysis web by running
+2. Play with this project
+    You can start the project by running
     
     ```shell
-    cd Firebase-HDFS-SQL
-    streamlit run EDFS_Commands.py
+    cd DSCI-560
+    python main.py
     ```
     
-    and you will be directed to the webpage
+    and you will be directed into a trading
