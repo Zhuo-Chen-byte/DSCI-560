@@ -1,4 +1,4 @@
-# Stock #
+# DSCI-Lab3 #
 1. Download this project
 
     You can clone this project by running this command
